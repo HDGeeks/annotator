@@ -65,11 +65,15 @@ def index():
 def annotate():
     global PROGRESS
 
+    row_index = request.args.get("row", type=int)
+    if row_index is None:
+        row_index = PROGRESS
+
     # All rows done?
     if PROGRESS >= len(DATA):
         return "🎉 All rows annotated. You’re done!"
 
-    row = DATA[PROGRESS]
+    row = DATA[row_index]
 
     if request.method == "POST":
         edited_output = []
@@ -87,11 +91,18 @@ def annotate():
                 "emotion": emotion
             })
 
-        # Write new row to output file
-        write_output(OUTPUT_PATH, {
-            "input": row["input"],
-            "output": edited_output
-        })
+        # append-only overwrite behavior
+        with open(OUTPUT_PATH, "a", encoding="utf-8") as f:
+            f.write(json.dumps({
+                "input": row["input"],
+                "output": edited_output
+            }, ensure_ascii=False) + "\n")
+
+        next_row = request.form.get("goto_row", type=int)
+        if next_row is not None:
+            if next_row > PROGRESS:
+                PROGRESS = next_row
+            return redirect(url_for("annotate", row=next_row))
 
         PROGRESS += 1
         return redirect(url_for("annotate"))
@@ -107,7 +118,8 @@ def annotate():
         row=row,
         emotions=EMOTIONS,
         aspects=all_aspects,
-        polarity_options=polarity_options
+        polarity_options=polarity_options,
+        row_index=row_index
     )
 
 
