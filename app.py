@@ -70,7 +70,7 @@ def annotate():
         row_index = PROGRESS
 
     # All rows done?
-    if PROGRESS >= len(DATA):
+    if row_index >= len(DATA):
         return "🎉 All rows annotated. You’re done!"
 
     row = DATA[row_index]
@@ -113,7 +113,7 @@ def annotate():
 
     return render_template(
         "annotate.html",
-        idx=PROGRESS,
+        idx=row_index,
         total=len(DATA),
         row=row,
         emotions=EMOTIONS,
