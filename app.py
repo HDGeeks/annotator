@@ -12,7 +12,6 @@ OUTPUT_PATH = None
 DATA = []
 PROGRESS = 0
 EMOTIONS = {}
-EDIT_MODE = False
 
 # ----------------------------
 # HELPERS
@@ -41,12 +40,11 @@ def write_output(output_path, row):
 
 @app.route("/", methods=["GET", "POST"])
 def index():
-    global INPUT_PATH, OUTPUT_PATH, DATA, PROGRESS, EMOTIONS, EDIT_MODE
+    global INPUT_PATH, OUTPUT_PATH, DATA, PROGRESS, EMOTIONS
 
     if request.method == "POST":
         INPUT_PATH = request.form["input_path"]
         OUTPUT_PATH = request.form["output_path"]
-        EDIT_MODE = "edit_mode" in request.form
 
         # Load main data
         DATA = load_data(INPUT_PATH)
@@ -89,16 +87,11 @@ def annotate():
                 "emotion": emotion
             })
 
-        if EDIT_MODE:
-            DATA[PROGRESS]["output"] = edited_output
-            with open(INPUT_PATH, "w", encoding="utf-8") as f:
-                for r in DATA:
-                    f.write(json.dumps(r, ensure_ascii=False) + "\n")
-        else:
-            write_output(OUTPUT_PATH, {
-                "input": row["input"],
-                "output": edited_output
-            })
+        # Write new row to output file
+        write_output(OUTPUT_PATH, {
+            "input": row["input"],
+            "output": edited_output
+        })
 
         PROGRESS += 1
         return redirect(url_for("annotate"))
