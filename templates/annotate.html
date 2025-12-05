@@ -61,6 +61,7 @@
         <form method="POST">
             <input type="hidden" name="total_items" value="{{ row.output|length }}">
             <input type="hidden" name="goto_row" id="goto_row">
+            <input type="hidden" name="action" id="action_field" value="save">
 
             {% for item in row.output %}
                 <div class="annotation-box p-3 mb-4">
@@ -136,18 +137,18 @@
             <div class="d-flex justify-content-between mt-4">
                 {% if row_index > 0 %}
                 <button type="button" class="btn btn-outline-secondary px-4"
-                        onclick="document.getElementById('goto_row').value={{ row_index - 1 }}; this.form.submit();">
+                        onclick="document.getElementById('goto_row').value={{ row_index - 1 }}; document.getElementById('action_field').value='navigate'; this.form.submit();">
                     ← Previous
                 </button>
                 {% else %}
                 <button type="button" class="btn btn-outline-secondary px-4" disabled>← Previous</button>
                 {% endif %}
 
-                <button type="submit" class="btn btn-success px-5">Save</button>
+                <button type="submit" class="btn btn-success px-5" onclick="document.getElementById('action_field').value='save';">Save</button>
 
                 {% if row_index + 1 < total %}
                 <button type="button" class="btn btn-outline-primary px-4"
-                        onclick="document.getElementById('goto_row').value={{ row_index + 1 }}; this.form.submit();">
+                        onclick="document.getElementById('goto_row').value={{ row_index + 1 }}; document.getElementById('action_field').value='navigate'; this.form.submit();">
                     Next →
                 </button>
                 {% else %}
