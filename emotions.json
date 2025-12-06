@@ -1,99 +1,37 @@
 {
-  
-  "positive": [
-    "admiration",
-    "amusement",
-    "approval",
-    "caring",
-    "curiosity",
-    "desire",
-    "excitement",
-    "gratitude",
-    "joy",
-    "love",
-    "pride",
-    "relief",
-    "impressed",
-    "appreciative",
-    "satisfied",
-    "comfortable",
-    "worth_it",
-    "delighted",
-    "anticipation"
-  ],
-  "negative": [
-    "anger",
-    "annoyance",
-    "confusion",
-    "disappointment",
-    "disapproval",
-    "disgust",
-    "embarrassment",
-    "fear",
-    "nervousness",
-    "remorse",
-    "sadness",
-    "frustrated",
-    "uncomfortable",
-    "overcharged",
-    "disrespected",
-    "disgusted"
-  ],
-  "neutral": [
-    "indifferent",
-    "neutral",
-    "realization",
-    "surprise"
-  ],
-
-   "positive_with_intensity": {
-    "low_intensity": ["satisfied", "comfortable", "appreciative", "caring"],
-    "medium_intensity": ["approval", "gratitude", "curiosity", "desire", "relief", "worth_it", "admiration"],
-    "high_intensity": ["delighted", "excitement", "joy", "love", "pride", "impressed", "amusement", "anticipation"]
-  },
-  "negative_with_intensity": {
-    "low_intensity": ["confusion", "nervousness", "uncomfortable"],
-    "medium_intensity": ["annoyance", "disappointment", "remorse", "frustrated", "sadness", "disapproval"],
-    "high_intensity": ["anger", "disgust", "disgusted", "embarrassment", "fear", "disrespected", "overcharged"]
-  },
-  "neutral_with_intensity": {
-    "low_intensity": ["indifferent"],
-    "medium_intensity": ["neutral"],
-    "high_intensity": ["realization", "surprise"]
-  },
   "ambience": {
-    "positive": ["admiration","approval","excitement"],
-    "negative": ["annoyance","disappointment","disapproval"],
-    "neutral": ["indifferent","neutral","realization"]
+    "positive": ["Admiration", "Approval", "Relaxation", "Excitement", "Impressed"],
+    "negative": ["Annoyance", "Disappointment", "Disapproval", "Confusion", "Fear"],
+    "neutral": ["Indifferent"]
   },
   "food": {
-    "positive": ["joy","love","satisfied"],
-    "negative": ["disgust","remorse","frustrated"],
-    "neutral": ["indifferent","neutral"]
+    "positive": ["Joy", "Admiration", "Impressed", "Satisfaction"],
+    "negative": ["Disgust", "Disappointment", "Annoyance", "Confusion", "Remorse"],
+    "neutral": ["Indifferent"]
   },
   "menu": {
-    "positive": ["appreciative","caring","impressed"],
-    "negative": ["disappointment","annoyance","confusion"],
-    "neutral": ["indifferent","neutral"]
+    "positive": ["Approval", "Excitement", "Appreciation", "Impressed"],
+    "negative": ["Disappointment", "Annoyance", "Confusion"],
+    "neutral": ["Indifferent"]
   },
   "place": {
-    "positive": ["approval","excitement","comfortable"],
-    "negative": ["disapproval","disappointment","annoyance"],
-    "neutral": ["indifferent","neutral","realization"]
+    "positive": ["Approval", "Admiration", "Relief"],
+    "negative": ["Fear", "Disappointment", "Annoyance", "Confusion"],
+    "neutral": ["Indifferent"]
   },
   "price": {
-    "positive": ["worth_it","surprise","relief"],
-    "negative": ["overcharged","disapproval","anger"],
-    "neutral": ["indifferent","realization"]
+    "positive": ["Approval", "Joy", "Satisfaction", "Surprise", "Relief"],
+    "negative": ["Disappointment", "Disapproval", "Annoyance", "Frustration"],
+    "neutral": ["Indifferent", "Realization"]
   },
   "service": {
-    "positive": ["approval","gratitude","delighted"],
-    "negative": ["annoyance","disappointment","frustrated"],
-    "neutral": ["neutral","indifferent"]
+    "positive": ["Approval", "Admiration", "Gratitude"],
+    "negative": ["Annoyance", "Disappointment", "Frustration"],
+    "neutral": ["Indifferent"]
   },
   "staff": {
-    "positive": ["gratitude","appreciative","pride"],
-    "negative": ["disappointment","embarrassment","annoyance"],
-    "neutral": ["indifferent","neutral"]
+    "positive": ["Gratitude", "Admiration", "Satisfaction"],
+    "negative": ["Disappointment", "Frustration", "Annoyance"],
+    "neutral": ["Indifferent"]
   }
 }
