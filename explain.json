@@ -1,0 +1,136 @@
+{
+  "positive": {
+    "Joy": {
+      "definition": "Strong delight or happiness about the experience.",
+      "when_to_use": "Use when the speaker expresses fun, delight, excitement, or clear emotional enjoyment.",
+      "linguistic_cues": ["loved", "amazing", "so happy", "thrilled", "made my day", "incredible"],
+      "example": "The sushi was incredible — I loved every piece."
+    },
+    "Admiration": {
+      "definition": "Respect or appreciation for skill, creativity, beauty, or craftsmanship.",
+      "when_to_use": "Use when the speaker praises technical execution, aesthetics, or creativity more than emotional enjoyment.",
+      "linguistic_cues": ["beautiful", "well-crafted", "expertly done", "artful", "gorgeous"],
+      "example": "The terrace was just so beautiful — truly elegant."
+    },
+    "Impressed": {
+      "definition": "Recognition of quality or excellence, often surprising or exceeding expectations.",
+      "when_to_use": "Use when the speaker acknowledges skill or quality without emotional enthusiasm.",
+      "linguistic_cues": ["impressed", "surprisingly good", "unexpectedly great", "better than expected"],
+      "example": "The faux Bolognese sauce was shockingly authentic — I was impressed."
+    },
+    "Satisfaction": {
+      "definition": "Calm contentment; the experience met expectations.",
+      "when_to_use": "Use for polite, moderate positivity without strong emotion.",
+      "linguistic_cues": ["satisfied", "met expectations", "solid", "just right", "hit the spot"],
+      "example": "We were satisfied with the meal and the price."
+    },
+    "Approval": {
+      "definition": "General positive evaluation or endorsement.",
+      "when_to_use": "Use when the reviewer expresses liking something politely or neutrally.",
+      "linguistic_cues": ["good", "nice", "approve", "worked well"],
+      "example": "The ambience was good for a quiet dinner."
+    },
+    "Excitement": {
+      "definition": "High-energy enthusiasm or anticipation.",
+      "when_to_use": "Use when the reviewer shows eager, upbeat emotion.",
+      "linguistic_cues": ["excited", "can't wait", "thrilled", "pumped"],
+      "example": "I'm excited to try their new seasonal menu."
+    },
+    "Appreciation": {
+      "definition": "Grateful recognition; acknowledging thoughtful or helpful aspects.",
+      "when_to_use": "Use when the speaker acknowledges effort or offering positively without emotional intensity.",
+      "linguistic_cues": ["appreciate", "nice touch", "thoughtful", "grateful"],
+      "example": "I appreciated the expanded menu options."
+    },
+    "Relief": {
+      "definition": "Positive feeling when a worry or negative expectation is avoided.",
+      "when_to_use": "Use when the reviewer was worried first, then reassured.",
+      "linguistic_cues": ["thankfully", "luckily", "relieved"],
+      "example": "Thankfully the wait wasn't long."
+    },
+    "Surprise": {
+      "definition": "Unexpected positive reaction.",
+      "when_to_use": "Use when the reviewer didn't expect to enjoy something.",
+      "linguistic_cues": ["surprisingly", "unexpectedly", "shockingly good"],
+      "example": "The vegetarian dish was surprisingly delicious."
+    },
+    "Relaxation": {
+      "definition": "A sense of comfort, ease, or calmness in the experience.",
+      "when_to_use": "Use when the reviewer describes a peaceful, soothing, or stress-free environment.",
+      "linguistic_cues": ["relaxing", "calming", "peaceful", "soothing"],
+      "example": "The ambience was so peaceful — incredibly relaxing."
+    },
+    "Gratitude": {
+      "definition": "Thankfulness for service, staff, or thoughtful elements.",
+      "when_to_use": "Use when the reviewer expresses being thankful for help, attentiveness, or gestures.",
+      "linguistic_cues": ["thank you", "grateful", "appreciated", "so thankful"],
+      "example": "The staff brought us blankets on a cold evening — really grateful for that."
+    }
+  },
+
+  "negative": {
+    "Disgust": {
+      "definition": "Strong aversion or revulsion.",
+      "when_to_use": "Use only when the reviewer finds something gross, repulsive, or physically unpleasant.",
+      "linguistic_cues": ["gross", "disgusting", "nasty", "couldn't eat"],
+      "example": "The meat tasted spoiled — honestly disgusting."
+    },
+    "Disappointment": {
+      "definition": "Sadness or let-down due to unmet expectations.",
+      "when_to_use": "Use when expectations were higher than the actual experience.",
+      "linguistic_cues": ["let down", "not what I expected", "disappointed", "fell short"],
+      "example": "The dishes lacked flavor — a real disappointment."
+    },
+    "Annoyance": {
+      "definition": "Mild irritation caused by inconvenience or minor frustration.",
+      "when_to_use": "Use when something is bothersome but not intense.",
+      "linguistic_cues": ["annoying", "bothersome", "irritating", "ugh"],
+      "example": "Waiting 15 minutes just to order was annoying."
+    },
+    "Confusion": {
+      "definition": "Lack of clarity or uncertainty about what is happening.",
+      "when_to_use": "Use when the reviewer is puzzled by service, food labeling, menu layout, etc.",
+      "linguistic_cues": ["confusing", "unclear", "I didn't understand"],
+      "example": "The menu layout was confusing and hard to follow."
+    },
+    "Remorse": {
+      "definition": "Regret or guilt for choosing something.",
+      "when_to_use": "Use when the reviewer regrets a decision.",
+      "linguistic_cues": ["I regret", "wish I hadn't", "my mistake"],
+      "example": "I regret ordering the seafood — it was a bad choice."
+    },
+    "Frustration": {
+      "definition": "Stronger irritation caused by repeated obstacles or effort.",
+      "when_to_use": "Use when the reviewer tries something multiple times or faces avoidable inconvenience.",
+      "linguistic_cues": ["frustrating", "fed up", "I had to keep", "why do I need to"],
+      "example": "I had to get up twice to find the waitress — incredibly frustrating."
+    },
+    "Disapproval": {
+      "definition": "Judgment or rejection based on standards or expectations.",
+      "when_to_use": "Use when the reviewer morally or normatively disapproves of something.",
+      "linguistic_cues": ["unacceptable", "inappropriate", "I don't approve"],
+      "example": "Charging extra for tap water is unacceptable."
+    },
+    "Fear": {
+      "definition": "Concern or worry about safety or negative consequences.",
+      "when_to_use": "Use when the reviewer expresses risk, danger, or nervousness.",
+      "linguistic_cues": ["worried", "scary", "unsafe", "afraid"],
+      "example": "The alleyway outside feels unsafe at night."
+    }
+  },
+
+  "neutral": {
+    "Indifferent": {
+      "definition": "No strong emotion; lack of interest or impact.",
+      "when_to_use": "Use when the reviewer neither likes nor dislikes something.",
+      "linguistic_cues": ["whatever", "fine", "okay", "doesn't matter"],
+      "example": "The music was fine — nothing special."
+    },
+    "Realization": {
+      "definition": "A neutral acknowledgment or discovery.",
+      "when_to_use": "Use when the reviewer states a fact or observation without emotion.",
+      "linguistic_cues": ["I realized", "turns out", "apparently"],
+      "example": "Apparently the portions are smaller at lunch."
+    }
+  }
+}

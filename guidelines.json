@@ -1,0 +1,134 @@
+{
+  "guidelines": {
+    "aspects": {
+      "food": {
+        "description": "Taste, quality, portion, ingredients, cooking, specific dishes.",
+        "examples": [
+          "The pasta was bland.",
+          "The steak was perfectly cooked."
+        ]
+      },
+      "place": {
+        "description": "Physical space, layout, seating, crowding, bar area, size, cleanliness of space.",
+        "examples": [
+          "The dining room was cramped.",
+          "We sat at the bar."
+        ]
+      },
+      "ambience": {
+        "description": "Atmospheric or emotional vibe: lighting, decor, energy, noise, mood.",
+        "examples": [
+          "The lighting was cozy.",
+          "The place felt chaotic."
+        ]
+      },
+      "service": {
+        "description": "Operational aspects: speed, wait times, reservation issues, understaffing.",
+        "examples": [
+          "Service was slow.",
+          "There was only one waiter for the whole room."
+        ]
+      },
+      "staff": {
+        "description": "Behavior or attitude of individual employees: friendliness, rudeness, attentiveness.",
+        "examples": [
+          "The waiter was rude.",
+          "The hostess was friendly."
+        ]
+      },
+      "price": {
+        "description": "Cost, value, fairness of pricing.",
+        "examples": [
+          "The meal was overpriced.",
+          "Good value for money."
+        ]
+      },
+      "menu": {
+        "description": "Variety, selection, availability of items.",
+        "examples": [
+          "The menu had great vegetarian options.",
+          "They ran out of my favorite dish."
+        ]
+      },
+      "miscellaneous": {
+        "description": "Content unrelated to the restaurant experience or no clear aspect match.",
+        "examples": [
+          "We came here after visiting the museum.",
+          "The neighborhood was quiet."
+        ]
+      }
+    },
+
+    "polarity_rules": {
+      "positive": "Use when the reviewer expresses satisfaction, praise, liking, beauty, or appreciation.",
+      "negative": "Use for complaints, problems, irritation, frustration, or negative evaluations.",
+      "neutral": "Use for factual statements without emotional judgment."
+    },
+
+    "emotion_selection": {
+      "positive": {
+        "Admiration": "Use for beauty, craftsmanship, elegance.",
+        "Impressed": "Use when something exceeds expectations.",
+        "Joy": "Strong positive emotional pleasure.",
+        "Satisfaction": "Calm contentment; expectations met.",
+        "Approval": "Mild positive evaluation.",
+        "Excitement": "Energetic enthusiasm.",
+        "Appreciation": "Grateful recognition of effort or thoughtfulness.",
+        "Relief": "Positive feeling when a worry is removed.",
+        "Surprise": "Unexpected positive reaction."
+      },
+      "negative": {
+        "Annoyance": "Irritation, crowding, small disturbances.",
+        "Disappointment": "Unmet expectations or let-down.",
+        "Frustration": "Repeated or significant obstacles; stronger irritation.",
+        "Confusion": "Lack of clarity or puzzling experience.",
+        "Disapproval": "Moral or strong normative judgment.",
+        "Fear": "Safety concerns or feelings of danger.",
+        "Remorse": "Regret for a personal choice."
+      },
+      "neutral": {
+        "Indifferent": "Factual or emotionless statement.",
+        "Realization": "New understanding stated neutrally."
+      }
+    },
+
+    "aspect_decision_rules": {
+      "place_vs_ambience": {
+        "place": "Use when talking about physical layout, space, seating, bars, size, tables, or crowding.",
+        "ambience": "Use for mood, decor, lighting, temperature, noise, or atmospheric energy."
+      },
+      "staff_vs_service": {
+        "staff": "Use when reviewing individual employee behavior (rude, friendly, cold, pushy).",
+        "service": "Use when referring to the restaurant's operational process (wait times, understaffing, bad system)."
+      }
+    },
+
+    "neutral_rules": {
+      "when_to_use_neutral": [
+        "Purely factual statements.",
+        "Mentions of location choices (e.g., 'we sat at the bar').",
+        "Descriptions without opinion or emotional content."
+      ]
+    },
+
+    "multi_label_rules": {
+      "definition": "Tag multiple aspects when a sentence discusses more than one distinct entity.",
+      "examples": [
+        {
+          "sentence": "The waiter rushed us but the dining room was beautiful.",
+          "annotations": [
+            "staff-negative",
+            "ambience-positive"
+          ]
+        },
+        {
+          "sentence": "We sat at the bar and the bartender was lovely.",
+          "annotations": [
+            "place-neutral",
+            "staff-positive"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -169,4 +169,4 @@ def annotate():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, extra_files=["sample.jsonl"])

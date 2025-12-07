@@ -33,5 +33,11 @@
     "positive": ["Gratitude", "Admiration", "Satisfaction"],
     "negative": ["Disappointment", "Frustration", "Annoyance"],
     "neutral": ["Indifferent"]
+  },
+
+  "miscellaneous": {
+    "positive": ["Admiration", "Approval", "Joy", "Satisfaction", "Relief", "Surprise", "Excitement"],
+    "negative": ["Annoyance", "Disappointment", "Disapproval", "Confusion", "Frustration", "Fear"],
+    "neutral": ["Indifferent", "Realization"]
   }
 }
