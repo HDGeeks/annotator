@@ -1,43 +1,42 @@
 {
   "ambience": {
-    "positive": ["Admiration", "Approval", "Relaxation", "Excitement", "Impressed"],
-    "negative": ["Annoyance", "Disappointment", "Disapproval", "Confusion", "Fear"],
-    "neutral": ["Indifferent"]
+    "positive": ["Admiration", "Satisfaction"],
+    "negative": ["Annoyance", "Disappointment"],
+    "neutral": ["No Emotion", "Mixed Emotions"]
   },
   "food": {
-    "positive": ["Joy", "Admiration", "Impressed", "Satisfaction"],
-    "negative": ["Disgust", "Disappointment", "Annoyance", "Confusion", "Remorse"],
-    "neutral": ["Indifferent"]
+    "positive": ["Admiration", "Satisfaction"],
+    "negative": ["Disgust", "Disappointment", "Annoyance"],
+    "neutral": ["No Emotion", "Mixed Emotions"]
   },
   "menu": {
-    "positive": ["Approval", "Excitement", "Appreciation", "Impressed"],
-    "negative": ["Disappointment", "Annoyance", "Confusion"],
-    "neutral": ["Indifferent"]
+    "positive": ["Admiration", "Satisfaction"],
+    "negative": ["Disappointment", "Annoyance"],
+    "neutral": ["No Emotion", "Mixed Emotions"]
   },
   "place": {
-    "positive": ["Approval", "Admiration", "Relief"],
-    "negative": ["Fear", "Disappointment", "Annoyance", "Confusion"],
-    "neutral": ["Indifferent"]
+    "positive": ["Admiration", "Satisfaction"],
+    "negative": ["Disappointment", "Annoyance", "Disgust"],
+    "neutral": ["No Emotion", "Mixed Emotions"]
   },
   "price": {
-    "positive": ["Approval", "Joy", "Satisfaction", "Surprise", "Relief"],
-    "negative": ["Disappointment", "Disapproval", "Annoyance", "Frustration"],
-    "neutral": ["Indifferent", "Realization"]
+    "positive": ["Admiration", "Satisfaction"],
+    "negative": ["Disappointment", "Annoyance"],
+    "neutral": ["No Emotion", "Mixed Emotions"]
   },
   "service": {
-    "positive": ["Approval", "Admiration", "Gratitude"],
-    "negative": ["Annoyance", "Disappointment", "Frustration"],
-    "neutral": ["Indifferent"]
+    "positive": ["Admiration", "Satisfaction", "Gratitude"],
+    "negative": ["Annoyance", "Disappointment"],
+    "neutral": ["No Emotion", "Mixed Emotions"]
   },
   "staff": {
     "positive": ["Gratitude", "Admiration", "Satisfaction"],
-    "negative": ["Disappointment", "Frustration", "Annoyance"],
-    "neutral": ["Indifferent"]
+    "negative": ["Disappointment", "Annoyance"],
+    "neutral": ["No Emotion", "Mixed Emotions"]
   },
-
   "miscellaneous": {
-    "positive": ["Admiration", "Approval", "Joy", "Satisfaction", "Relief", "Surprise", "Excitement"],
-    "negative": ["Annoyance", "Disappointment", "Disapproval", "Confusion", "Frustration", "Fear"],
-    "neutral": ["Indifferent", "Realization"]
+    "positive": ["Admiration", "Satisfaction"],
+    "negative": ["Annoyance", "Disappointment"],
+    "neutral": ["No Emotion", "Mixed Emotions"]
   }
 }
