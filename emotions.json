@@ -1,42 +1,42 @@
 {
   "ambience": {
-    "positive": ["Admiration", "Satisfaction"],
-    "negative": ["Annoyance", "Disappointment"],
-    "neutral": ["No Emotion", "Mixed Emotions", "Mentioned_only"]
+    "positive": ["admiration", "satisfaction"],
+    "negative": ["annoyance", "disappointment"],
+    "neutral": ["no_emotion", "mixed_emotions", "mentioned_only"]
   },
   "food": {
-    "positive": ["Admiration", "Satisfaction"],
-    "negative": ["Disgust", "Disappointment", "Annoyance"],
-    "neutral": ["No Emotion", "Mixed Emotions", "Mentioned_only"]
+    "positive": ["admiration", "satisfaction"],
+    "negative": ["disgust", "disappointment", "annoyance"],
+    "neutral": ["no_emotion", "mixed_emotions", "mentioned_only"]
   },
   "menu": {
-    "positive": ["Admiration", "Satisfaction"],
-    "negative": ["Disappointment", "Annoyance"],
-    "neutral": ["No Emotion", "Mixed Emotions", "Mentioned_only"]
+    "positive": ["admiration", "satisfaction"],
+    "negative": ["disappointment", "annoyance"],
+    "neutral": ["no_emotion", "mixed_emotions", "mentioned_only"]
   },
   "place": {
-    "positive": ["Admiration", "Satisfaction"],
-    "negative": ["Disappointment", "Annoyance", "Disgust"],
-    "neutral": ["No Emotion", "Mixed Emotions", "Mentioned_only"]
+    "positive": ["admiration", "satisfaction"],
+    "negative": ["disappointment", "annoyance", "disgust"],
+    "neutral": ["no_emotion", "mixed_emotions", "mentioned_only"]
   },
   "price": {
-    "positive": ["Admiration", "Satisfaction"],
-    "negative": ["Disappointment", "Annoyance"],
-    "neutral": ["No Emotion", "Mixed Emotions", "Mentioned_only"]
+    "positive": ["admiration", "satisfaction"],
+    "negative": ["disappointment", "annoyance"],
+    "neutral": ["no_emotion", "mixed_emotions", "mentioned_only"]
   },
   "service": {
-    "positive": ["Admiration", "Satisfaction", "Gratitude"],
-    "negative": ["Annoyance", "Disappointment"],
-    "neutral": ["No Emotion", "Mixed Emotions", "Mentioned_only"]
+    "positive": ["admiration", "satisfaction", "gratitude"],
+    "negative": ["annoyance", "disappointment"],
+    "neutral": ["no_emotion", "mixed_emotions", "mentioned_only"]
   },
   "staff": {
-    "positive": ["Gratitude", "Admiration", "Satisfaction"],
-    "negative": ["Disappointment", "Annoyance"],
-    "neutral": ["No Emotion", "Mixed Emotions", "Mentioned_only"]
+    "positive": ["gratitude", "admiration", "satisfaction"],
+    "negative": ["disappointment", "annoyance"],
+    "neutral": ["no_emotion", "mixed_emotions", "mentioned_only"]
   },
   "miscellaneous": {
-    "positive": ["Admiration", "Satisfaction"],
-    "negative": ["Annoyance", "Disappointment"],
-    "neutral": ["No Emotion", "Mixed Emotions", "Mentioned_only"]
+    "positive": ["admiration", "satisfaction"],
+    "negative": ["annoyance", "disappointment"],
+    "neutral": ["no_emotion", "mixed_emotions", "mentioned_only"]
   }
 }
